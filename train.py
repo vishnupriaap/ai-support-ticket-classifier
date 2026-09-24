@@ -81,7 +81,7 @@ from sklearn.metrics import accuracy_score
 #
 # and gives us an accuracy value.
 
-
+import joblib
 # ------------------------------------------------------------
 # 2. READ OUR DATASET
 # ------------------------------------------------------------
@@ -421,6 +421,14 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Predictions:", y_pred)
 print("Actual answers:", y_test.to_numpy())
 print("Accuracy:", accuracy)
+
+
+
+joblib.dump(vectorizer, "vectorizer.pkl")
+joblib.dump(model, "model.pkl")
+
+print("Vectorizer saved!")
+print("Model saved!")
 
 
 # ============================================================
