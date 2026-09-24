@@ -3,11 +3,31 @@ text,category
 "I cannot login to my account",account_problem
 "My account is locked",account_problem
 "I cannot reset my password",account_problem
+"I forgot my username",account_problem
+"I need to change my password",account_problem
+"I cannot access my account",account_problem
+"My login is not working",account_problem
+"I am unable to sign in",account_problem
+"I lost access to my account",account_problem
+
 "My payment failed",payment_problem
 "Money was deducted but payment failed",payment_problem
 "My card payment is not working",payment_problem
 "I was charged twice",payment_problem
+"My UPI payment failed",payment_problem
+"Money was deducted from my bank account",payment_problem
+"My payment is still pending",payment_problem
+"I was charged the wrong amount",payment_problem
+"My transaction failed",payment_problem
+"I did not receive my payment refund",payment_problem
+
 "The app keeps crashing",technical_problem
 "The website is not loading",technical_problem
 "The application shows a blank screen",technical_problem
 "I am getting an error when opening the app",technical_problem
+"The app freezes",technical_problem
+"The website is very slow",technical_problem
+"The application stopped working",technical_problem
+"I cannot open the app",technical_problem
+"The screen keeps loading",technical_problem
+"I found a technical error",technical_problem
