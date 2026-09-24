@@ -1,0 +1,13 @@
+text,category
+"I forgot my password",account_problem
+"I cannot login to my account",account_problem
+"My account is locked",account_problem
+"I cannot reset my password",account_problem
+"My payment failed",payment_problem
+"Money was deducted but payment failed",payment_problem
+"My card payment is not working",payment_problem
+"I was charged twice",payment_problem
+"The app keeps crashing",technical_problem
+"The website is not loading",technical_problem
+"The application shows a blank screen",technical_problem
+"I am getting an error when opening the app",technical_problem
